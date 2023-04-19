@@ -1,1 +1,3 @@
 # myprofile
+.HTML
+.CSS
