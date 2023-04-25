@@ -2,23 +2,68 @@
 <html>
 <head>
     <title>Index Page</title>
-     <!-- CDN Link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-    <!DOCTYPE html>
-<html>
-<head>
-    <title>Index Page</title>
-     <!-- CDN Link -->
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
+    <style>
+    
+        *{            
+            margin: 0px;
+            padding: 0px;
+        }
+        header{
+          color: rgb(29, 31, 23);
+          background-color: rgb(183, 183, 202);
+          font-weight: bold;
+          padding:15px;
+          font-size: x-large;
+        }
+        .links{
+            text-transform: uppercase;
+            word-spacing: 5px;
+            color: black;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        .userinfo{
+            margin-right: 70px;
+        }
+        #follow{
+            margin-right: 20px;
+            text-decoration: underline;
+            font-weight:bold;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .fafa{
+            margin-right: 25px;
+        }
+        /* body{
+            /* background-color: aquamarine;
+            opacity: 80%; */
+            /* background-image:url("assets/nature1.avif");
+            background-repeat:no-repeat;
+            background-attachment: fixed;
+            /* background-position:bottom; */
+            /* background-size: cover;
+        } */ 
+        #frame1{
+            background-image: url("assets/Lovepik_com-401110806-natural-woods.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+    </style>
+     
 </head>
 <body>
     <header>
         <i class="fa fa-user" aria-hidden="true"></i>
-    <span>Mohit Sharma </span> &nbsp; &nbsp; &nbsp;
+    <span class="userinfo">Mohit Sharma </span> 
     <i class="fa fa-phone-square" aria-hidden="true"></i>
-    <span> 8600 2222 50 </span> &nbsp; &nbsp; &nbsp;
+    <span class="userinfo"> 8600222250 </span> 
     <i class="fa fa-envelope-o" aria-hidden="true"></i>
     <span> gajanan.kharat@gmail.com </span>
 
@@ -26,33 +71,31 @@
     <br>
     <nav>
         <nav>
-            <a href="home.html" target="frame">HOME</a> &nbsp; &nbsp; &nbsp;
-            <a href="techStack.html" target="frame">TECHNOLOGY STACK</a> &nbsp; &nbsp; &nbsp;
-            <a href="education.html" target="frame"> EDUCATION </a> &nbsp; &nbsp; &nbsp;
-            <a href="personal.html" target="frame"> PERSONAL </a> &nbsp; &nbsp; &nbsp;
-            <a href="contactus.html" target="frame"> CONTACT ME </a>
+            <a href="home.html" target="frame"><span class="links">home</span></a> 
+            <a href="techStack.html" target="frame"><span class="links">technology_stack</span></a> 
+            <a href="education.html" target="frame"><span class="links">education</span></a> 
+            <a href="personal.html" target="frame"><span class="links">personal</span></a>
+            <a href="contactus.html" target="frame"><span class="links">contact_me</span></a>
         </nav>
     </nav>
     
     <br> <br> 
-    <iframe width="800px" height="1000px" name="frame" src="home.html">
+    <iframe id="frame1" width="800px" height="500px" name="frame" src="home.html">
 
     </iframe>
 
     <br> <br> 
-    <span> Follow me </span> &nbsp; &nbsp;
-    <a href="https://www.linkedin.com/" target="_blank">
-    <i class="fa fa-linkedin-square" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-    <a href="https://www.instagram.com/" target="_blank">
-    <i class="fa fa-instagram" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-    <a href="https://www.facebook.com/" target="_blank">
-    <i class="fa fa-facebook-square" aria-hidden="true"></i></a> &nbsp; &nbsp; &nbsp;
-    <a href="https://www.google.com/" target="_blank">
-    <i class="fa fa-google" aria-hidden="true"></i></a>&nbsp; &nbsp; &nbsp;
-    <a href="https://www.youtube.com/" target="_blank">
+    <span id="follow"> Follow me on</span> 
+    <a href="https://www.linkedin.com/" target="_blank"><span class="fafa"></span>
+    <i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+    <a href="https://www.instagram.com/" target="_blank"><span class="fafa"></span>
+    <i class="fa fa-instagram" aria-hidden="true"></i></a> 
+    <a href="https://www.facebook.com/" target="_blank"><span class="fafa"></span>
+    <i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
+    <a href="https://www.google.com/" target="_blank"><span class="fafa"></span>
+    <i class="fa fa-google" aria-hidden="true"></i></a>
+    <a href="https://www.youtube.com/" target="_blank"><span class="fafa"></span>
     <i class="fa fa-youtube" aria-hidden="true"></a></i>
     
-</body>
-</html>
 </body>
 </html>
