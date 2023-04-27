@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Itim&display=swap"
+      rel="stylesheet"/>
+
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: "Itim", cursive;
+      }
+      * {
+        color: cadetblue;
+        font-size: x-large;
+      }
+      #calc:hover {
+        background-color: burlywood;
+      }
+      button {
+        font-weight: bolder;
+        size: 200px;
+        /* align-self: center; */
+        margin-top: 25px;
+        border-radius: 20px;
+        padding: 6px;
+        /* margin-left: 39%; */
+      }
+      input {
+        border-radius: 50px;
+        margin-top: 15px;
+      }
+
+      label {
+        text-transform: capitalize;
+      }
+
+      #total {
+        text-transform: capitalize;
+        border: 1px;
+        margin-top: 70px;
+      }
+      #amount {
+        margin-left: 98px;
+      }
+      #percentage {
+        margin-left: 10px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <h3>Discount Calculator</h3>
+    <p>Enter the bill amount and discount in Percentage</p>
+    <form>
+        <label>bill amount</label>
+        <input type="number" id="amount" class="num" /><br />
+        <label>discount percentage</label>
+        <input type="number" class="num" id="percentage" /><br />
+        <button type="submit" id="calc">Calculate</button>
+    </form>
+    <span id="total">total discount amount ==</span>
+  </body>
+</html>
